@@ -1,10 +1,16 @@
 // lib/sensor_interfaces.dart
 
+/// Interfaz principal que usa el Termostato (del PDF) y el Controlador IoT (de la Rúbrica)
 abstract class SensorInterface {
-  Future<double> readValue();
-  Future<void> calibrate(); // Método para probar timeout
+  // --- Requerido por el PDF Lab (Pág 98) ---
+  Future<double> getCurrentTemperature();
+
+  // --- Requerido por la Rúbrica (Parte 2) ---
+  Future<double> readValue(); 
+  Future<void> calibrate();
 }
 
+// --- Interfaces adicionales de la Rúbrica ---
 abstract class HumiditySensor {
   Future<double> getHumidity();
 }
@@ -14,5 +20,5 @@ abstract class COxDetector {
 }
 
 abstract class LightDetector {
-  void turnOnAlarm(); // Void method para verificar llamadas (verify)
+  void turnOnAlarm();
 }
