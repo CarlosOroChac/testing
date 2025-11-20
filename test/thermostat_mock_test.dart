@@ -2,7 +2,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 // Ajusta los imports según el nombre de tu proyecto
-import 'package:testing_final_project/thermostat.dart'; 
+import 'package:smart_device_tester/thermostat.dart'; 
 import 'mock_sensor.dart'; 
 
 void main() {

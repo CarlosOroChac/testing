@@ -1,7 +1,7 @@
 // test/widget_test.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:testing_final_project/widgets.dart';
+import 'package:smart_device_tester/widgets.dart';
 
 void main() {
   group('Part 3: Widget Tests', () {

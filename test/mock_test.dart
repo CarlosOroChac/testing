@@ -2,8 +2,8 @@
 import 'dart:async';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:testing_final_project/sensor_interfaces.dart';
-import 'package:testing_final_project/iot_controller.dart';
+import 'package:smart_device_tester/sensor_interfaces.dart';
+import 'package:smart_device_tester/iot_controller.dart';
 
 // Paso 2.1: Crear clase Mock que implementa las 4 interfaces
 class MockSensor extends Mock implements SensorInterface, HumiditySensor, COxDetector, LightDetector {}

@@ -1,6 +1,6 @@
 // test/unit_test.dart
 import 'package:flutter_test/flutter_test.dart';
-import 'package:testing_final_project/business_logic.dart';
+import 'package:smart_device_tester/business_logic.dart';
 
 void main() {
   group('Part 1: Unit Tests Basic Logic', () {
